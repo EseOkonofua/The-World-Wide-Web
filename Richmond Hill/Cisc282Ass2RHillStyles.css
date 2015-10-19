@@ -1,0 +1,146 @@
+﻿body {
+    margin:0;
+    overflow-x:auto;
+}
+
+.container{
+    min-width:960px;
+    max-width:1366px;
+    overflow:hidden;
+    width:100%
+}
+
+.important{ 
+    color:red;
+}
+
+#title small{
+    font-size:25px;
+}
+
+#title{
+    border-top:2px solid #eeeeee;
+    border-bottom:2px solid #eeeeee;
+    background-color:#70B33D;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+    padding:10px 0px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:45px;
+}
+
+#info{
+    padding:0px 5%;
+    width:100%;
+    height:220px;
+    overflow:hidden;
+}
+@media (max-width:760px){
+    #info{
+        height:280px;
+    }
+
+}
+
+.about{
+    padding:5px 10px;
+    margin-right:5%;
+    float:left;
+    width:40%;
+    height:90%;
+    border:2px solid black;
+}
+.statistics{
+
+    padding:5px 10px;
+    border:2px solid black;
+    height:90%;
+    width:40%;
+    float:left;
+}
+
+.heading1{
+    margin:0;
+    color:red;
+}
+
+p{
+    margin-top:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#gallery{
+    margin-bottom:2px;
+    border-top:2px solid #eeeeee;
+    border-bottom:2px solid #eeeeee;
+    min-height:200px;
+    width:100%;
+    background-color:#70B33D;
+    padding:10px 4%;
+    overflow:hidden;   
+}
+.galleryImg{
+    outline:1px solid white;
+    width:100%;
+    height:200px;
+    margin-right:10px;
+}
+.galleryCaptions{
+    font-style:italic;
+    padding-top:2px;
+    color:white;
+    margin:0;
+    font-size:14px;
+}
+#columnDescription{ 
+    margin-right:auto;
+    margin-left:auto;
+    font-size:17px;
+    width:95%;
+    border-top:2px solid #70B33D;
+    border-bottom:2px solid #70B33D;
+    height:100px;
+   -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    padding:5px 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+@media (max-width:760px){
+    #columnDescription{
+        height:160px;
+    }
+}
+ul{ 
+    padding:0;
+    list-style-type:none;
+    margin:0;
+}
+ul li{
+    width:30%;
+    margin:0px 5px;
+    vertical-align:top;
+    display:inline-block;
+}
+
+ul.stats{
+    list-style-type:circle;
+    margin-left:13px;
+}
+
+ul.stats li{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:list-item;
+    width:100%;
+}
+
+a {
+    color: #000099;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#02502D;
+}
