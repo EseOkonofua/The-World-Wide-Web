@@ -1,0 +1,106 @@
+Timestamp|City/Town|URL
+9-16-2015 18:17:25|"Ottawa, ON"|http://52.88.45.62/13alp/assignment2/hometown.html
+9-23-2015 22:38:19|"Kingston, ON"|http://52.88.47.166/12rah8/HTML-A2.html
+9-24-2015 14:00:51|"Kingston, ON"|http://52.88.47.166/12rah8/MyHometown.html
+9-25-2015 11:05:44|"Ottawa, ON"|http://52.88.28.176/13lb45/AssignmentTwo/
+9-25-2015 16:37:29|"Richmond Hill, ON"|http://52.88.8.18/eio/Assignment2/Cisc282Ass2RHill.html
+9-26-2015 12:13:10|"Toronto, ON"|http://52.88.20.129/11ecg5/Assig_2/index.html
+9-28-2015 17:48:03|"Winnipeg, SK"|http://52.88.47.219/13ctf/hometown/
+10-1-2015 11:20:08|"Horseshoe Valley, ON"|http://52.88.47.249/14rjcj/hometownWebsite.html
+10-1-2015 21:05:44|"Vaughan, ON"|http://52.88.0.146/13dmdb/Assignment2/Assignment2-DDB.html
+10-2-2015 12:10:53|"Almonte, ON"|http://52.88.49.6/8gkm1/my-home-town/
+10-2-2015 16:11:25|"Calgary, AB"|http://52.25.83.89/11el19/a2/intro.html
+10-2-2015 16:14:09|"Xi'an, China"|http://52.24.137.94/qcl/assn2/assn2.html
+10-4-2015 16:23:44|Hong Kong|http://52.10.82.249/12jcyl/A2HTML.html
+10-4-2015 23:15:03|"Toronto, ON"|http://52.10.0.181/13mbp/a2/
+10-4-2015 23:55:09|"Oakville, ON"|http://52.11.203.13/13nr34/AssignmentTwo.html
+10-5-2015 10:13:28|"Sydney, Australia"|http://52.11.106.149/15jm50/Assessment%202/MyHomeTown.html
+10-5-2015 12:55:26|"Regina, SK"|http://52.10.188.175/11sf21/regina.html
+10-5-2015 15:35:21|"Port Elgin, ON"|http://52.26.29.188/tbv/portelgin/MyHomeTown.html
+10-5-2015 15:49:18|"Ottawa, ON"|http://52.10.149.180/12ys47/Assignment2.html
+10-5-2015 16:20:10|"Embrun, ON"|http://52.24.159.112/0ss99/embrun.html
+10-5-2015 19:59:23|"Toronto, ON"|http://52.88.47.185/13rz5/Assignment2.html
+10-6-2015 12:18:52|"Bethesda, MD"|http://52.25.152.6/15cb31/hometown.html
+10-6-2015 12:53:26|"Shanghai, China"|http://52.88.12.53/13wjw/wen.html
+10-6-2015 15:00:24|"Markham, ON"|http://52.88.43.100/12lvw/MarkhamWebsite/Markham.html
+10-6-2015 17:42:29|"Markham, ON"|http://52.88.6.126/13zm/assignment2.html
+10-6-2015 17:55:32|Yosemite National Park|http://52.88.28.16/6sc23/assignment2.html
+10-6-2015 18:29:33|"Vancouver, BC"|http://52.26.214.83/assignment2/
+10-6-2015 20:37:30|"Oakville, ON"|http://52.88.48.191/13ekg2/Hometown.html
+10-7-2015 11:50:37|"Toronto, ON"|http://52.88.48.166/9sl54/Hometown/toronto.html
+10-7-2015 16:30:33|"Toronto, ON"|http://52.27.202.217/12ecc3/assignment2.html
+10-7-2015 17:21:58|Singapore|http://52.88.17.206/15zz27/assignment_two.html
+10-7-2015 18:20:24|"Vienna, Austria"|http://52.25.252.121/0jf11/assignment2/a2.html
+10-7-2015 21:10:32|"Uxbridge, ON"|http://52.88.46.134/11lmb23/Assignment2/uxbridge.html
+10-8-2015 10:04:17|"Westport, ON"|http://52.25.195.60/5dsc1/westport.html
+10-8-2015 12:05:09|"Calgary, AB"|http://52.88.46.151/11aw48/calgary/hometown.html
+10-8-2015 14:24:00|"Montreal,QC"|http://52.27.70.161/0oc5/Website/test.html
+10-8-2015 15:42:09|"Vancouver, BC"|http://52.27.102.2/11yyl5/Assignment2/Assignment2.html
+10-8-2015 17:20:32|"Ottawa, ON"|http://50.112.145.114/13tg19/Assignment2.html
+10-8-2015 17:50:54|"Markham, ON"|http://52.26.227.148/13ttm/home_town.html
+10-8-2015 18:27:15|"Damascus, Syria"|http://52.27.114.21/14ra6/Assignment2.html
+10-8-2015 19:12:22|"Paris, France"|http://52.88.49.18/14zas/Paris.html
+10-8-2015 19:48:34|"Toronto, ON"|http://52.24.172.156/myHomeTown/myHomeTown.html
+10-8-2015 19:50:01|"Seattle, Washington"|http://52.88.46.169/11sp54/Assignment2/index.html
+10-8-2015 20:24:02|"Oshawa, ON"|http://52.27.218.152/13mjm17/Assgn_%232_13mjm17.html
+10-8-2015 20:50:23|"Toronto, ON"|http://52.27.54.216/12jtkl/test.html
+10-8-2015 22:48:31|"Shanghai, China"|http://52.88.38.203/12jnz/A2/index.html
+10-9-2015 0:41:56|"Calgary, AB"|http://52.26.145.139//13mm28/Assignment2.html
+10-9-2015 0:45:44|"Toronto, ON"|http://52.26.202.49/14JCP3/Cisc%20282%20assignment%202.html
+10-9-2015 1:22:31|"Kingston, ON"|http://52.88.11.217/11wpg1/Assignment2/CISC282A2.html
+10-9-2015 2:36:52|"Ottawa, ON"|http://52.88.30.53/1ptb1/Assign2/Assign2.html
+10-9-2015 4:59:19|"Oakland, California"|http://52.88.16.19/0bc19/Oakland.html
+10-9-2015 5:57:08|"Beijing, China"|http://52.24.125.182/13xl18/Beijing/Beijing.html
+10-9-2015 6:29:27|"Ningbo, China"|http://52.10.239.98/13syeb/a2.html
+10-9-2015 8:29:47|"Ottawa, ON"|http://52.88.46.140/14sc3/Homework1.html
+10-9-2015 10:34:28|"Toronto, ON"|http://52.25.181.216/14vh2/assignment2/vincentToronto.html
+10-9-2015 13:02:57|"Waterloo, ON"|http://52.88.47.193/12ad74/Assignment2.html
+10-9-2015 14:09:25|"Markham, ON"|http://52.88.49.12/12dab8/assignment2_12dab8/assignment2.html
+10-9-2015 14:21:52|"Montreal,QC"|http://52.88.46.204/14jys/assign1.html
+10-9-2015 14:22:16|"Montreal,QC"|http://52.88.46.204/14jys/assign1.html
+10-9-2015 16:57:58|"Richmond Hill, ON"|http://52.11.190.14/14mgf/Assignment2/Richmond%20Hill.html
+10-9-2015 15:01:35|"Kingston, ON"|http://52.88.48.12/12dt23/Assignment2.html
+10-9-2015 15:30:36|"Aurora, ON"|http://52.24.213.191/10107380/MyHomeTown.html
+10-9-2015 16:30:41|Hong Kong|http://52.24.240.240/13ytl4/Phoebe's%20Home%20Town%20CISC282-A2.html
+10-9-2015 17:04:25|"Siem Reap, Cambodia"|http://52.88.47.239/14ls6/Assignment2/homeTown.html
+10-9-2015 17:25:38|"Shenzhen, China"|http://52.88.16.203/1shh1/Shenzhen/index.html
+10-9-2015 18:50:01|"Mississauga, ON"|http://52.88.29.4/1sp9/Assn2/mississauga.html
+10-9-2015 18:52:46|"Mississauga, ON"|http://52.88.47.169/13fn/Assignment2.html
+10-9-2015 19:12:27|"Perth, ON"|http://52.27.50.239/12lllw/asst2.html
+10-9-2015 19:48:15|"Oakville, ON"|http://52.27.22.65/11sp72/oakville.html
+10-9-2015 19:51:08|"Nobleton, ON"|http://52.88.0.70/14dvl/AssignmentTwo.html
+10-9-2015 20:09:57|"Kingston, ON"|http://52.88.18.67/rtt/Assignment2/Assignment2-10140286-HTML.html
+10-9-2015 20:18:28|"Aurora, ON"|http://52.27.179.77/13jpm12/282Assgn2.html
+10-9-2015 20:18:40|"Toronto, ON"|http://52.27.179.77/13jpm12/282Assgn2.html
+10-9-2015 20:27:56|"Markham, ON"|http://52.24.100.36/13kc1/A2/Assignment2.html
+10-9-2015 20:29:13|"Halifax, NS"|http://52.25.129.186/13tsm3/282assignment2.html
+10-9-2015 20:31:44|"Waterloo, ON"|http://52.88.70.182/13gdt/FinalAssTwo.html
+10-9-2015 20:34:54|"Belleville, ON"|http://52.27.207.46/12crp/assgn2_final/assgn2.html
+10-9-2015 20:43:29|"Calgary, AB"|http://52.88.47.212/13hyt1/A2-1.html
+10-9-2015 20:50:03|"Vancouver, BC"|http://52.88.47.178/12jc59/SetupComplete.html
+10-9-2015 22:00:49|"Burlington, ON"|http://52.88.87.70/14jdg/Assignment_2.html
+10-9-2015 22:05:24|"Doha, Qatar"|http://52.10.43.222/12la28/Assignment2_12la28.html
+10-9-2015 22:10:03|"Guelph, ON"|http://52.88.22.130/0jaaw/assignment2.html
+10-9-2015 22:10:08|"Richmond Hill, ON"|http://52.26.139.111/13ai1/MyHomeTown.html
+10-9-2015 22:10:30|"Burlington, ON"|http://52.88.9.43/11IHC/Assignment%201.html
+10-9-2015 22:19:34|"Banff, AB"|http://52.24.91.249/14pps/assignment2.html
+10-9-2015 22:47:13|"Milton, ON"|http://52.88.47.167/14jpk2/
+10-9-2015 22:57:25|"Mississauga, ON"|http://52.25.153.203/9cjc6/assignment1.html
+10-9-2015 22:58:36|"Istanbul, Turkey"|http://52.88.5.231/12rma1/Turkey282.html
+10-9-2015 23:02:31|"Ottawa, ON"|http://52.11.200.200/13jjmc/Ottawa/Ottawa.html
+10-9-2015 23:12:12|"Mississauga, ON"|http://52.11.81.99/12aak4/assignment2/index.html
+10-9-2015 23:22:46|"Brighton, ON"|http://52.88.28.182/12alb13/BrightonWebsite.html
+10-9-2015 23:33:34|"Toronto, ON"|http://52.88.21.210/13am236/a2/index.html
+10-9-2015 23:44:50|"Ottawa, ON"|http://52.88.28.125/12kjb4/Assignment2/Assignment2.html
+10-9-2015 23:45:10|"Lahore, Pakistan"|http://52.88.45.234/1sm40/LahoreCityBreakdown.html
+10-9-2015 23:46:25|"Toronto, ON"|http://52.27.197.210/13ab170/A2/index.html
+10-9-2015 23:55:24|"Aurora, ON"|http://52.27.204.212/13jeh/Assignment%202.html
+10-9-2015 23:58:36|"Toronto, ON"|http://52.88.35.253/14mjfs/HTML2.html
+10-9-2015 23:59:12|"Kingston, ON"|http://52.88.46.136/13aah12/kingston.html
+10-10-2015 0:02:14|"Calgary, AB"|http://52.27.212.63/13gm28/Assignment2_10138115_13gm28.html
+10-10-2015 0:23:05|"Beijing, China"|http://52.25.94.253/12st3/
+10-10-2015 0:42:44|"Ottawa, ON"|http://52.88.10.97/13rgz1/Assignment2/ASSIGNMENT2.html
+10-10-2015 3:45:48|"Lanxi, China"|http://52.27.75.26/yd/assignment1.html
+10-10-2015 18:59:17|"Kingston, ON"|http://52.26.34.122/14jdb3/MyHomeTown.html
+10-10-2015 21:26:15|"Toronto, ON"|http://52.88.35.253/14mjfs/AssignmentTwo.html
+10-10-2015 23:33:20|"Ottawa, ON"|http://52.26.217.233/14am27/Assignment2.html

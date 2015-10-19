@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: -webkit-linear-gradient(bottom,white,#efe6e6,white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom,white,#efe6e6,white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom,white,#efe6e6,white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(bottom,white,#efe6e6,white);
+    margin: 0;
+    font-family: 'Josefin Slab', serif;
+    min-height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1920px;
+    min-height: 500px;
+}
+
+/*.container:hover > #header > span {
+        border-bottom: 1px solid #808080;
+    }*/
+
+#mainPage:hover {
+    -webkit-box-shadow: 0px 0px 80px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 80px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 80px 0px rgba(0,0,0,0.75);
+}
+
+#mainPage {
+    height: 100%;
+    min-width: 800px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+
+
+#header {
+    background-color: white;
+    width: 70%;
+    min-width: 800px;
+    padding-top: 15px;
+    font-size: 200%;
+    height: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #808080;
+}
+
+#headerContainer {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*#header > span {
+    border-bottom: 1px solid silver;
+}*/
+
+#guideBody {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.homeTownBox {
+    min-height: 85px;
+    width: 98%;
+    padding: 5px 1%;
+    line-height: 22px;
+}
+
+.homeTownBox a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.homeTownBox a + a {
+    margin-left: 20px;
+}
+
+.homeTownBox a:hover {
+    color: silver;
+    border-bottom: 1px solid silver;
+}
+
+.homeTownBox a:visited {
+    color: brown;
+}
+
+
+.townLabel {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: left;
+}
+
+hr {
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.singleLink{
+font-size:2em;
+}
+.footer{
+    width: 98%;
+    font-size: 0.8em;
+    text-align: right;
+    padding-right: 2%;
+}
