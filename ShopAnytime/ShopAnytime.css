@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+}
+
+#header {
+    background-color: rgba(0, 0, 0,0.8);
+    margin-top: 20px;
+    width: 70%;
+    height: 70px;
+    padding: 10px 15%;
+    outline: 1px solid rgb(157,210,216);
+    display: inline-block;
+    color: white;
+    -webkit-box-shadow: 0px -5px 20px 0px rgba(50,190,166,0.8);
+    -moz-box-shadow: 0px -5px 20px 0px rgba(50,190,166,0.8);
+    box-shadow: 0px -5px 20px 0px rgba(50,190,166,0.8);
+}
+    #header img {
+        position: relative;
+        bottom: 26px;
+        float: left;
+        margin-right: 20px;
+    }
+
+#title {
+    width: 60%;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.6em;
+    min-width: 580px;
+}
+
+    #title #slogan {
+        font-size: 0.33em;
+        color: rgb(50,190,166);
+    }
+
+#container {
+    height: 100%;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1920px;
+    min-height: 500px;
+}
+
+#mainPage {
+    height: 100%;
+    min-width: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0,0.8);
+    margin-top: 2px;
+    border-left: 1px solid rgb(50,190,166);
+    border-right: 1px solid rgb(50,190,166);
+    -webkit-box-shadow: 0px 16px 50px 6px rgba(50,190,166,0.8);
+    -moz-box-shadow: 0px 16px 50px 6px rgba(50,190,166,0.8);
+    box-shadow: 0px 16px 50px 6px rgba(50,190,166,0.8);
+}
+
+    #mainPage form {
+        height: 100%;
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+.userInfo {
+    width: 96%;
+    padding: 2px 0px;
+    color: white;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.userSpecs {
+    float: left;
+    margin-right: 5px;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+input {
+    border: none;
+}
+
+    input:focus {
+        border: none;
+        outline: none;
+    }
+
+.userSpecs input {
+    background-color: rgba(51,51,51,1);
+    border-bottom: 1px solid rgb(50,190,166);
+    color: white;
+    margin-left: 10px;
+    width: 45%;
+    text-align: center;
+}
+
+    .userSpecs input:focus {
+        border: none;
+        outline: none;
+        text-align: center;
+        border-bottom: 2px solid rgb(50,190,166);
+    }
+
+
+.instructions {
+    border-top: 1px solid rgb(50,190,166);
+    border-bottom: 1px solid rgb(50,190,166);
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 25px;
+}
+
+#groceryList {
+    width: 100%;
+}
+
+.groceryListCategory {
+    padding-top: 30px;
+    height: 50px;
+    font-size: 2.3em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+    .groceryListCategory img {
+        position: relative;
+        bottom: 25px;
+        height: 70px;
+        float: left;
+        margin-right: 15px;
+        width: 100px;
+    }
+
+    .groceryListCategory span {
+        /*border-bottom:1px solid rgb(50,190,166);*/
+    }
+
+#groceryList ul {
+    padding: 0;
+    clear: both;
+}
+
+    #groceryList ul li {
+        vertical-align: top;
+        list-style-type: none;
+        display: inline-block;
+        width: 32.67%;
+        height: 250px;
+        text-align: center;
+        border-right: 1px solid rgb(50,190,166);
+        border-left: 1px solid rgb(50,190,166);
+        margin-bottom: 20px;
+        font-size: 0.8em;
+    }
+
+        #groceryList ul li img {
+            height: 75%;
+            width: 90%;
+            max-width:250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #groceryList ul li .itemInfo {
+            width: 90%;
+            min-height: 8%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-bottom: 3px;
+        }
+
+        #groceryList ul li input {
+            background-color: rgba(51,51,51,1);
+            border-bottom: 1px solid rgb(50,190,166);
+            color: white;
+            width: 20%;
+            font-size: 0.8em;
+            text-align: center;
+            font-size: 1em;
+        }
+
+            #groceryList ul li input:focus {
+                border-bottom: 2px solid rgb(50,190,166);
+                text-align: center;
+            }
+
+        #groceryList ul li:nth-child(3n+1) {
+            border-left: none;
+        }
+
+        #groceryList ul li:nth-child(3n) {
+            border-right: none;
+        }
+
+.footer {
+    width: 98%;
+    font-size: 0.8em;
+    padding-right: 2%;
+    text-align: right;
+}
+
+.button {
+    background-color: rgb(50,190,166);
+    color: white;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+    .button:hover {
+        cursor: pointer;
+        position: relative;
+        top: 2px;
+    }
+
+#orderBtn{
+       width: 80px;
+    height: 40px;
+}
+
+#backBtn{
+    width: 80px;
+    height: 35px;
+}
+
+#receiptHeader{
+    width: 61%;
+    height: 50px;
+    background-color: rgba(0, 0, 0,0.8);
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 2px;
+    padding: 20px 2%;
+    outline: 1px solid rgb(157,210,216);
+    -webkit-box-shadow: 0px -5px 20px 0px rgba(50,190,166,0.8);
+    -moz-box-shadow: 0px -5px 20px 0px rgba(50,190,166,0.8);
+    box-shadow: 0px -5px 20px 0px rgba(50,190,166,0.8);
+   
+}
+#receiptHeader img{
+    float: left;
+    position: relative;
+    bottom: 32px;
+    margin-right: 15px;
+}
+#receipt{
+    margin-top: 0;
+    width: 63%;
+    height: 100%;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0,0.8);
+    margin-left:auto;
+    margin-right: auto;  
+    padding-left:1%;
+    padding-right: 1%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+     -webkit-box-shadow: 0px 16px 50px 6px rgba(50,190,166,0.8);
+    -moz-box-shadow: 0px 16px 50px 6px rgba(50,190,166,0.8);
+    box-shadow: 0px 16px 50px 6px rgba(50,190,166,0.8);
+}
+#receiptBody{
+    clear: both;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+#receiptUserInfo{
+    width: 100%;
+    font-size: 1.2em;   
+    margin-bottom: 10px;
+}
+#receiptUserInfo span{
+   float: right;
+}
+
+hr{
+    border: none;
+    width:100%;
+    margin-bottom: 3px;
+    border-bottom: 1px dashed rgb(50,190,166);
+}
+
+.receiptListHeader{
+    width:98%;
+    padding:6px 1%;
+    min-height:20px;
+    clear: both;
+}
+
+.receiptListHeader .quantity{width: 10%;float: left}
+.receiptListHeader .description{width: 40%;float: left}
+.receiptListHeader .price{width: 50%;text-align:right;float: left}
+
+#receiptBody > .receiptListHeader:nth-child(2n+2){
+    background-color:rgba(50,190,166,0.3);
+}
+
+.receiptTotals{
+    padding-top: 5px;
+    width: 50%;
+    min-height: 50px;
+   margin-left: auto;
+    margin-top: 10px;
+    border-top: 1px dashed rgb(50,190,166);
+}
+
+.receiptTotals span{float: right}
+.greeting{height: 25px;width: 100%;text-align:center;font-size: 0.7em;margin-top: 10px}
