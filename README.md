@@ -6,3 +6,5 @@ Richmond Hill Website: http://52.88.8.18/eio/Assignment2/Cisc282Ass2RHill.html
 Travel Guide Website: http://52.88.8.18/eio/Assignment3/Cisc282Assignment3TravelGuide.php
 
 Shop Anytime Website: http://52.88.8.18/eio/Assignment4/ShopAnytime.html
+
+Reel Movies Website: http://52.88.8.18/eio/Assignment5/ReelMoviesHome.php
