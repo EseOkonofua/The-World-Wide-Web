@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 1080px;
+    max-width: 1920px;
+    min-height: 500px;
+}
+
+
+#header {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    height: 250px;
+    background-color: rgba(0,0,0,1);
+    padding: 5px 0px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
+}
+
+#headerReel {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 30px 0px rgba(255,255,255,1);
+}
+
+.headerImage {
+    height: auto;
+    width: 20%;
+    max-height: 250px;
+    min-height: 250px;
+    display: inline-block;
+}
+
+#headerReelFirst {
+    vertical-align: top;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    left: -102%;
+    animation-name: imageslide;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: imageslide;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes imageslide {
+    0% {
+        left: -102%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes imageslide1 {
+    0% {
+        left: -102%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+
+#webTitle {
+    position: absolute;
+    background-color: rgba(0,0,0,0.9);
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    bottom: 40%;
+    padding: 0px 10px;
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+    border: 1px solid white;
+}
+
+#webTitle div {
+    font-size: 0.22em;
+}
+
+.popup {
+    position: fixed;
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9);
+    opacity: 0;
+    z-index: 1000;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s,opacity 0.5s linear;
+}
+
+#mainBody {
+    position: absolute;
+    top: 290px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bodyFunction {
+    background-color: black;
+    height: 130px;
+    width: 92%;
+    padding-left: 2%;
+    padding-right: 6%;
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2);
+}
+
+
+.functionContainer {
+    height: 98%;
+    padding: 1%;
+    background-color: black;
+    position: relative;
+    top: -10px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 8px 0px rgba(255,255,255,1);
+    display: inline-block;
+}
+
+
+.functionContainer.actors {
+    background-image: url("Images/actorBG.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 58%;
+}
+
+.functionContainer.movies {
+    width: 28%;
+    background-image: url("Images/genre.png");
+    background-repeat: no-repeat;
+    background-size: auto 85%;
+    background-position: 10%;
+}
+
+.functionContainer:nth-child(2) {
+    float: right;
+}
+
+.functionContainer form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.functionTitle {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    color: Grey;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.movieText {
+    border: none;
+    color: White;
+    background-color: black;
+    border-bottom: 1px solid White;
+}
+
+
+.movieText:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid White;
+}
+
+
+.buttonContainer {
+    margin-top: 25px;
+}
+
+.movieButton {
+    width: 80px;
+    height: 30px;
+    background-color: grey;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 2px 0px rgba(255,255,255,1);
+}
+
+.movieButton:hover {
+    cursor: pointer;
+}
+
+.movieButton:active {
+    position: relative;
+    top: 2px;
+}
+
+.movieButton:focus {
+    border: 1px solid white;
+}
+
+.movieSelect {
+    min-width: 160px;
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+    -webkit-appearance: none; /*Removes default chrome and safari style*/
+    -moz-appearance: none; /*Removes default style Firefox*/
+    background: url('Images/arrowdown.png') no-repeat;
+    background-size: contain;
+    background-position: 95%;
+}
+
+.movieSelect:focus {
+    border: 1px solid grey;
+    outline: none;
+}
+
+.movieSelect option {
+    background-color: black;
+    border-bottom: 1px solid grey;
+}
+
+.movieSelect option:hover {
+    background-color: grey;
+}
+
+.error {
+    color: #B02323;
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.listing {
+    background-color: black;
+    position: absolute;
+    top: 5%;
+    bottom: 10%;
+    left: 30%;
+    right: 30%;
+    border: 1px solid #cccccc;
+    color: White;
+    overflow: hidden;
+}
+
+.listOverflowWrapper {
+    width: 96%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 2%;
+}
+
+@media (max-width: 860px) {
+    .listing {
+        right: 5%;
+        left: 5%;
+    }
+}
+
+.popUpHeader {
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    height: 30px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.popUpHeader input {
+    float: right;
+}
+
+.exitButton {
+    background-color: Black;
+    background-image: url("Images/exit.png");
+    background-size: contain;
+    background-position: center;
+    height: 85%;
+    width: 30px;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+}
+
+.exitButton:hover {
+    cursor: pointer;
+}
+
+.exitButton:focus {
+    border: none;
+    outline: none;
+}
+
+#movieByGenre .listing {
+    background-image: url("Images/genre.png");
+    background-repeat: no-repeat;
+    background-size: auto 160px;
+    background-position: 10% 95%;
+}
+
+#actorRoles .listing {
+    background-image: url("Images/actorBG.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto 92%;
+}
+
+.loading {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.listRow {
+    width: 100%;
+    height: 32px;
+    padding-top: 5px;
+}
+
+hr {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 10%;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th {
+    background-color: white;
+    color: black;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+}
+
+#ratings {
+    height: initial;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 8px 0px #ffcc00;
+    -moz-box-shadow: 0px 0px 8px 0px #ffcc00;
+    box-shadow: 0px 0px 8px 0px #ffcc00;
+}
+
+.functionContainer.rate {
+    width: 75%;
+    margin: 0px 12.5%;
+    -webkit-box-shadow: 0px 0px 20px 0px #ffcc00;
+    -moz-box-shadow: 0px 0px 20px 0px #ffcc00;
+    box-shadow: 0px 0px 20px 0px #ffcc00;
+    height: initial;
+    top: 0px;
+}
+
+.rate form {
+    width: 80%;
+}
+
+.userInput {
+    color: white;
+    height: 30px;
+    width: 100%;
+    min-width: 680px;
+}
+
+#username {
+    float: left;
+    margin-left: 5px;
+}
+
+#movieFilter {
+    float: left;
+}
+
+#userRateError {
+    width: 35%;
+    float: left;
+    padding-left: 3px;
+}
+
+.genrestar {
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#movieRatings {
+    min-height: 60px;
+}
+
+#movieRatings .loading {
+    top: 70%;
+}
+
+.ratingRow {
+    width: 100%;
+    min-height: 100px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    transition: height 0.5s linear,width 0.5s linear;
+    -webkit-transition: height 0.5s linear,width 0.5s linear;
+}
+
+.ratingRow span.movieTitle {
+    font-size: 2em;
+}
+
+.ratingRowTop {
+    width: 100%;
+    height: 55px;
+}
+
+.ratingRowBottom {
+    width: 100%;
+}
+
+.ratingRowBottom div, form {
+    display: inline-block;
+}
+
+.rateButton {
+    background-color: Black;
+    background-image: url("Images/emptystar.png");
+    background-size: contain;
+    background-position: center;
+    width: 20px;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+.rateButton:hover {
+    cursor: pointer;
+    background-image: url("Images/filledstarsmall.png");
+}
+
+.rateButton:focus {
+    border: none;
+    outline: none;
+}
+
+.ratingsExpand:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ratingsExpand {
+    background-color: Black;
+    border: none;
+    outline: none;
+    position: relative;
+    right: 24px;
+    color: white;
+    float: right;
+}
+
+.ratingsExpanded {
+    width: 100%;
+    min-height: 60px;
+    margin-top: 8px;
+    transition: display 0.5s linear;
+    -webkit-transition: display 0.5s linear;
+}
+
+.ratingRowExpand {
+    width: 125%;
+}
+
+.ratingButtonGroup {
+    max-width: 100px;
+    font-size: 0.5em;
+    position: relative;
+    top: -5px;
+    width: 100px;
+    vertical-align: top;
+}
+
+.ratingButtonGroup .labels {
+    width: 19px;
+    text-align: center;
+    display: inline-block;
+}
+
+.ratingButtonGroup button {
+    width: 19%;
+    display: inline-block;
+}
+
+#successSubmit {
+    display: block;
+    width: 145px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: rgba(102, 255, 102,0.7);
+    margin-bottom: 20px;
+}
+
+.userRating {
+    display: inline-block;
+    margin-right: 15px;
+    border-bottom: 1px solid #5A5353;
+    margin-bottom: 5px;
+}
+
+.rateButtonLit {
+    background-image: url("Images/filledstarsmall.png");
+}
+
+.hide {
+    display: none;
+}
