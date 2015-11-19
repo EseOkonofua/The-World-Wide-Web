@@ -1,6 +1,6 @@
 <?php
     //Password
-     define("PASSWORD","comingon201520");
+     define("PASSWORD","");
 
     //Models 
     //Movie Model
