@@ -1,15 +1,14 @@
 # The-World-Wide-Web
 Repository containing websites created for Queen's University Cisc 282 Web development class. Includes PHP, HTML, JAVASCRIPT and CSS usage.
 
-*Links are broken right now*
 
-Richmond Hill Website: http://52.88.8.18/eio/Assignment2/Cisc282Ass2RHill.html
+Richmond Hill Website
 
-Travel Guide Website: http://52.88.8.18/eio/Assignment3/Cisc282Assignment3TravelGuide.php
+Travel Guide Website
 
-Shop Anytime Website: http://52.88.8.18/eio/Assignment4/ShopAnytime.html
+Shop Anytime Website
 
-Shop Anytime Website w/ Login functionality: http://52.88.8.18/eio/Assignment6/ShopAnytimeHome.php
+Shop Anytime Website w/ Login functionality
 
 ##Reel Movies Website: http://www.eokonofua.com/Reel%20Movies/ReelMoviesHome.php
 
