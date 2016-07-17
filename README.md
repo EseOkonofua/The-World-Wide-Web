@@ -10,6 +10,5 @@ Shop Anytime Website
 
 Shop Anytime Website w/ Login functionality
 
-##Reel Movies Website: http://www.eokonofua.com/Reel%20Movies/ReelMoviesHome.php
-
+Reel Movies Website
 
